@@ -1,0 +1,8 @@
+int #(int argc, char *argv[], bool __main__);
+
+int main(int argc, char *argv[])
+{
+    #(argc, argv, true);
+    return 1;
+}
+
